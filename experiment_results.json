@@ -1,0 +1,27 @@
+{
+  "experiment_date": "2025-08-28 07:13:34",
+  "model": "openai-community/gpt2-large",
+  "method": "QLoRA",
+  "dataset": "Banking77",
+  "baseline_metrics": {
+    "accuracy": 0.008,
+    "f1": 0.002131093352050467,
+    "precision": 0.0014904926555334855,
+    "recall": 0.008
+  },
+  "finetuned_metrics": {
+    "accuracy": 0.099,
+    "f1": 0.09048672146098012,
+    "precision": 0.0962077072181458,
+    "recall": 0.099
+  },
+  "improvements": {
+    "accuracy": 1137.5,
+    "f1": 4146.023355753834,
+    "precision": 6354.758892032956,
+    "recall": 1137.5
+  },
+  "training_time": "0:45:08.126493",
+  "lora_config": { "r": 16, "alpha": 32, "dropout": 0.1 },
+  "training_config": { "learning_rate": 0.0002, "batch_size": 4, "epochs": 3 }
+}
